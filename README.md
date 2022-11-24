@@ -1,2 +1,0 @@
-# EstudoAll
-EstudoAll
