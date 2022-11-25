@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::prefix('estudos')->group(function(){
+
+    Route::get('/getters',[\App\Http\Controllers\GeneralStudy::class,'getters']);
+    Route::get('/construct',[\App\Http\Controllers\GeneralStudy::class,'construct']);
+    Route::get('/heranca',[\App\Http\Controllers\GeneralStudy::class,'heranca']);
+    // teste
+});
+
+// teste
