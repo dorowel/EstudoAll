@@ -22,4 +22,10 @@ class GeneralStudy extends Controller
 
     }
 
+    public function abstrato()
+    {
+        return view('abstract');
+
+    }
+
 }

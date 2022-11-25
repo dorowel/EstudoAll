@@ -19,7 +19,7 @@ class Veiculo {
     }
 }
 
-Class Carro extends Veiculo {
+Class Carro extends Veiculod {
 
     public function ligarLimpador()
     {
@@ -39,6 +39,10 @@ class Moto extends Veiculo {
     }
 
 }
+
+$moto = new Moto();
+
+echo $moto->darGrau();
 
 
 

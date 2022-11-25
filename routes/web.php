@@ -23,7 +23,7 @@ Route::prefix('estudos')->group(function(){
     Route::get('/getters',[\App\Http\Controllers\GeneralStudy::class,'getters']);
     Route::get('/construct',[\App\Http\Controllers\GeneralStudy::class,'construct']);
     Route::get('/heranca',[\App\Http\Controllers\GeneralStudy::class,'heranca']);
-    // teste
+    Route::get('/abstract',[\App\Http\Controllers\GeneralStudy::class,'abstrato']);
 });
 
-// teste
+
