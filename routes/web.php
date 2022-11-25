@@ -24,6 +24,8 @@ Route::prefix('estudos')->group(function(){
     Route::get('/construct',[\App\Http\Controllers\GeneralStudy::class,'construct']);
     Route::get('/heranca',[\App\Http\Controllers\GeneralStudy::class,'heranca']);
     Route::get('/abstract',[\App\Http\Controllers\GeneralStudy::class,'abstrato']);
+    Route::get('/atributosestaticos',[\App\Http\Controllers\GeneralStudy::class,'atributosestaticos']);
+    Route::get('/polimorfismo',[\App\Http\Controllers\GeneralStudy::class,'polimorfismo']);
 });
 
 

@@ -28,4 +28,18 @@ class GeneralStudy extends Controller
 
     }
 
+    public function atributosestaticos()
+    {
+
+        return view('atributosestaticos');
+    }
+
+    public function polimorfismo()
+    {
+
+        return view('polimorfismo');
+
+    }
+
+
 }
