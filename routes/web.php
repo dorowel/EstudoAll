@@ -26,6 +26,9 @@ Route::prefix('estudos')->group(function(){
     Route::get('/abstract',[\App\Http\Controllers\GeneralStudy::class,'abstrato']);
     Route::get('/atributosestaticos',[\App\Http\Controllers\GeneralStudy::class,'atributosestaticos']);
     Route::get('/polimorfismo',[\App\Http\Controllers\GeneralStudy::class,'polimorfismo']);
+    Route::get('/interfaces',[\App\Http\Controllers\GeneralStudy::class,'interfaces']);
+    Route::get('/referencia-clonagem',[\App\Http\Controllers\GeneralStudy::class,'clon']);
+    Route::get('/excecoes',[\App\Http\Controllers\GeneralStudy::class,'excecoes']);
 });
 
 

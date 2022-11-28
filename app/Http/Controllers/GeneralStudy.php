@@ -41,4 +41,22 @@ class GeneralStudy extends Controller
 
     }
 
+    public function interfaces()
+    {
+
+        return view('interfaces');
+
+    }
+
+    public function clon()
+    {
+        return view('referencia-clonagem');
+    }
+
+    public function excecoes()
+    {
+
+        return view('excecoes');
+
+    }
 }
