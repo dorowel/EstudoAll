@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::prefix('estudos')->group(function(){
 
-    Route::get('/getters',[\App\Http\Controllers\GeneralStudy::class,'getters']);
+    Route::get('/getters',[\App\Http\Controllers\GeneralStudy::class,'getters'])->name('getters');
     Route::get('/construct',[\App\Http\Controllers\GeneralStudy::class,'construct']);
     Route::get('/heranca',[\App\Http\Controllers\GeneralStudy::class,'heranca']);
     Route::get('/abstract',[\App\Http\Controllers\GeneralStudy::class,'abstrato']);
@@ -29,6 +29,8 @@ Route::prefix('estudos')->group(function(){
     Route::get('/interfaces',[\App\Http\Controllers\GeneralStudy::class,'interfaces']);
     Route::get('/referencia-clonagem',[\App\Http\Controllers\GeneralStudy::class,'clon']);
     Route::get('/excecoes',[\App\Http\Controllers\GeneralStudy::class,'excecoes']);
+    Route::get('/relacao-objeto',[\App\Http\Controllers\GeneralStudy::class,'relacaoobjeto'])->name('relacao-objeto');
+
 });
 
 

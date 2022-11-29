@@ -59,4 +59,13 @@ class GeneralStudy extends Controller
         return view('excecoes');
 
     }
+
+
+    public function relacaoobjeto()
+    {
+
+        return view('relacao-objeto');
+
+    }
+
 }

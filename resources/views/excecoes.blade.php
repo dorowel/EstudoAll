@@ -17,7 +17,7 @@ try {
     $newsletter->cadastrarEmail('wellikkkkk');
 }catch (Exception $e){
 
-    echo $e->getMessage().'<br>'.PHP_EOL;
-    echo $e->getCode().'<br>'.PHP_EOL;
-    echo $e->getLine().'<br>'.PHP_EOL;
+    echo $e->getMessage().PHP_EOL;
+    echo $e->getCode().PHP_EOL;
+    echo $e->getLine().PHP_EOL;
 }
