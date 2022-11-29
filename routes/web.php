@@ -30,6 +30,7 @@ Route::prefix('estudos')->group(function(){
     Route::get('/referencia-clonagem',[\App\Http\Controllers\GeneralStudy::class,'clon']);
     Route::get('/excecoes',[\App\Http\Controllers\GeneralStudy::class,'excecoes']);
     Route::get('/relacao-objeto',[\App\Http\Controllers\GeneralStudy::class,'relacaoobjeto'])->name('relacao-objeto');
+    Route::get('/agregacao',[\App\Http\Controllers\GeneralStudy::class,'agregacao'])->name('agregacao');
 
 });
 

@@ -68,4 +68,10 @@ class GeneralStudy extends Controller
 
     }
 
+    public function agregacao(){
+
+        return view('agregacao');
+
+    }
+
 }
